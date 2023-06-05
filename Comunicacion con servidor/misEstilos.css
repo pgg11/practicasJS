@@ -1,0 +1,111 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1{
+    height: 8%;
+    margin: 0;
+    padding-top: 1%;
+    text-align: center;
+    background-color: rgb(28, 35, 80);
+    color: whitesmoke;
+    text-shadow: 3px 1px 1px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+p{
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+p:hover{
+    color:black;
+    text-decoration: underline black solid;
+}
+
+table{
+    background-color: black;
+}
+
+thead{
+    background-color: rgb(93, 247, 62);
+}
+
+tbody{
+    background-color: rgb(161, 236, 146);
+}
+
+tr, td, th{
+    border: 1px solid rgb(36, 33, 33);
+    text-align: left;
+    padding: 5px;
+}
+
+input{
+    display: block;
+    padding-left: 10px;
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(135, 240, 114);
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    margin: 1%;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+}
+
+textarea{
+    display: block;
+    width: 260px;
+    font-size: 15px;
+    color: black;
+}
+
+.contenidoMain{
+    padding-top: 7%;
+    background-color: rgb(254, 255, 253);
+}
+
+#main{
+    display: inline-flex;
+    margin: 0;
+    width: 100%;
+    height: 90%;
+}
+
+#contenedorOpciones{
+    background-color: rgb(36, 40, 63);
+    border: 1px solid black;
+    padding-left: 10px;
+    width: 18%;
+    display: block;
+}
+
+#contenedorTabla{
+    width: 80%;
+    padding-left: 10%;
+    display: block;
+}
+
+#contenedorBusqueda, #contenedorAgregar, #contenedorDelete{
+    padding-top: 5%;
+    width: 80%;
+    padding-left: 10%;
+    display: none;
+}
+
+#botonDeBusqueda, #botonDeAgregar, #botonDeBorrar{
+    margin-top: 1%;
+    margin-left: 10%;
+}

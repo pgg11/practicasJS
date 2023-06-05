@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+        <title>Desafio dia 15</title>
+        <link rel="stylesheet" href="misEstilos.css">
+    </head>
+    <body onload="cargarPagina()">
+        <h1 id="titulo">Administrador de Dispositivos</h1>
+        <div id="main">
+            <div id="contenedorOpciones">
+                <p id="mostrarRegistros">Mostrar Registros</p>
+                <p id="buscarRegistro">Buscar Registro</p>
+                <p id="agregarRegistro">Agregar Registro</p>
+                <p id="eliminarRegistro">Eliminar Registro</p>
+            </div>
+            <div id="contenedorTabla" class="contenidoMain">
+                <table id="tabla"></table>
+            </div>
+            <div id="contenedorBusqueda" class="contenidoMain">
+                <input id="entradaBusqueda"
+                       placeholder="Ingrese un id"
+                       type="number"
+                       min="0">
+                <button id="botonDeBusqueda">Buscar</button>
+            </div>
+            <div id="contenedorAgregar" class="contenidoMain">
+                <input type="text" id="entradaMarca" placeholder="Marca">
+                <input type="text" id="entradaModelo" placeholder="Modelo">
+                <input type="text" id="entradaColor" placeholder="Color">
+                <input type="text" id="entradaAlmacenamiento" placeholder="Almacenamiento">
+                <input type="text" id="entradaProcesador" placeholder="Procesador">
+                <button id="botonDeAgregar">Agregar</button>
+            </div>
+            <div id="contenedorDelete" class="contenidoMain">
+                <input id="entradaId"
+                       placeholder="Ingrese un id"
+                       type="number"
+                       min="1">
+                <button id="botonDeBorrar">Borrar</button>
+            </div>
+        </div>
+        
+
+        <script src="misScripts.js"></script>
+    </body>
+</html>
